@@ -42,6 +42,18 @@ Top genes ranked by log2 fold change between tumor and normal tissue.
 - `MA_plot.py`, `heatmap.py`, `diif_epression.py`, etc. — analysis and plotting scripts
 - `*.png` — output figures
 
+## Biological Interpretation
+
+The top differentially expressed genes reflect three themes typical of 
+colorectal cancer. **ECM remodeling genes** (COL10A1, COL11A1, COMP, MMP1, 
+MMP3, MMP7) reflect tumor invasion and stromal remodeling. **Epithelial 
+genes** (KRT6B, KRT17, ELF5) indicate altered differentiation programs. 
+**REG1A/REG1B** and **INHBA** are established colorectal cancer progression 
+markers. A few genes (C5orf46, C6orf15, LOC154860, LOC100190940, RNU11) are 
+poorly characterized or non-coding, with no established colorectal cancer 
+role. Overall, the pattern points to active tissue remodeling and disrupted 
+epithelial identity — hallmarks of colorectal tumorigenesis.
+
 Tools Used
 - Python (pandas, numpy, matplotlib, seaborn, scikit-learn)
 
